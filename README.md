@@ -23,3 +23,23 @@ The sample data file contains one record per line (comma separated values). The 
 A Golang 1.8+ program that processes input as provided by the sample data, filters out invalid points and produces an output comma separated value text file with the following format:
 
 ```id_ride, fare_estimate```
+
+## Instructions
+
+Build binary
+
+```bash
+go build
+```
+
+Run
+
+```bash
+./fare-calculator paths.csv
+```
+
+Test
+
+```bash
+go test
+```
